@@ -2,9 +2,7 @@
   "name": "angular-tealium",
   "description": "Tealium AngularJS Integration",
   "main": [
-    "tealium.js",
-    "tealium_data.js",
-    "tealium_directive.js"
+    "tealium.js"
   ],
   "dependencies": {
     "angular": ">=1.3.0"
