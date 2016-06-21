@@ -69,7 +69,11 @@ angular.module("TealiumHelper", ["TealiumHelper.data"])
 
                     if ( typeof utag == "undefined" ) {
                         getScript( src, function(){
-                            utag.track( ev, data )
+                            try{
+                                utag.track( ev, data )
+                            } catch (err) {
+                                $log( err.name + " : " + err.message);
+                          }
                         })
                     } else {
                         utag.track( ev, data )
