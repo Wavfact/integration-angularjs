@@ -1,5 +1,5 @@
 ##Tealium AngularJS Integration
-I forked tealium AngularJS lib to a new branch so that i can maintain code standards, create unit tests and keep the code organized.  I will do my best keep this fork updated with any changes made to the master tealium branch.  I have also included a sample service module and test spec to use within your application. 
+if you want a bower installable version, see https://github.com/Wavfact/angularjs-tealium
 
 Repository modified to use the Provider pattern.
 
