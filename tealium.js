@@ -72,7 +72,7 @@ angular.module("TealiumHelper", ["TealiumHelper.data"])
                             try{
                                 utag.track( ev, data )
                             } catch (err) {
-                                $log( err.name + " : " + err.message);
+                               console.log( err.name + " : " + err.message);
                           }
                         })
                     } else {
